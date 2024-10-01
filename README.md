@@ -82,7 +82,7 @@ Click "Yes" to this pop-up.
 
 </p>
 <p>
-(Close any remaining windows from the previous active directory project.)
+(Except for the Server Manager, close any remaining windows from the previous active directory project.)
 </p>
 <br />
 
