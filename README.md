@@ -35,7 +35,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://github.com/user-attachments/assets/20556907-f5ca-40c8-baa3-c5430ee2cf3d" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+In Microsoft Azure search: Virtual Machines & select Client-1 VM.
+  <br />
+Copy Client-1's Public IP address into the Remote Desktop Connection & Connect.
+  <br />
+Enter the administrator account credentials for the VM: your domain administrator account & password.
 </p>
 <br />
 
