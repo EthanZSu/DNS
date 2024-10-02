@@ -154,6 +154,63 @@ Now you should see 4 replies from mainframe.
 
 
 <p>
+<img src="https://github.com/user-attachments/assets/b7ccad40-9633-4214-97a6-9920e8811ba1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+Observe Client-1's DNS cache:
+  <br />
+in the command prompt type: ipconfig /displaydns , click: ENTER.
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/fccbb0d9-5c29-453d-9c35-e1f4316f637c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+In DC-1's DNS Manager, on the left select: mydomain.com .
+  <br />
+Then under Name select: mainframe .
+  <br />
+Change the IP address to: 8.8.8.8
+  <br />
+Click: Apply, OK.
+</p>
+<br />
+
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/56068a0a-761e-44b1-9ab5-8b2da81ebe46" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+In Client-1's command prompt: ping mainframe.
+  <br />
+  <br />
+You will see 4 replies from mainframe's previous IP address
+  <br />
+because the old IP address still exists on Client-1's local DNS cache.
+</p>
+<br />
+
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+
+<p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
