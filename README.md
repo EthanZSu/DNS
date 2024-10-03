@@ -217,13 +217,15 @@ Confirm: Yes .
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/cce47ff2-7575-4af9-b725-b080ac737177" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
 <p>
-For Client-1 to receive replies from mainmframe's new IP address,
+For Client-1 to receive replies from mainframe's new IP address:
   <br />
-
+you must flush the DNS Resolver Cache 
+  <br />  
+(so Client-1 will be forced to query the DNS server for the new IP address).
 </p>
 <br />
 
