@@ -223,9 +223,14 @@ Confirm: Yes .
 <p>
 For Client-1 to receive replies from mainframe's new IP address:
   <br />
-you must flush the DNS Resolver Cache 
+(you must flush the DNS Resolver Cache 
   <br />  
-(so Client-1 will be forced to query the DNS server for the new IP address).
+so Client-1 will be forced to query the DNS server for the new IP address).
+  <br />
+  <br />
+In Client-1's command prompt, type: ipconfig /flushdns.
+  <br />
+Hit: ENTER
 </p>
 <br />
 
