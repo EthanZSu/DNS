@@ -237,22 +237,26 @@ Hit: ENTER
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/ee65e408-ea19-4308-8768-f44b40c1648d" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Client-1's command prompt, ping mainframe again.
+  <br />
+Now you will get 4 replies from mainframe's new IP address. 
 </p>
 <br />
 
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/c210d5a9-a053-41d3-a2a7-df58339f11cb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In the command prompt, input: ipconfig /displaydns.
+  <br />
+You will see Client-1 has the latest A-record for mainframe: 8.8.8.8 .
 </p>
 <br />
 
