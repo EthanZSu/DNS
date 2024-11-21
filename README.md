@@ -42,6 +42,10 @@ Copy Client-1's Public IP address into the Remote Desktop Connection & Connect.
   <br />
 Enter the administrator account credentials for the VM: your domain administrator account & password.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -52,8 +56,11 @@ Enter the administrator account credentials for the VM: your domain administrato
 <p>
 Click "Yes" to this pop-up.
 </p>
+________________________________________________________________________________________________________________________
 <br />
-
+<br />
+<br />
+<br />
 
 
 <p>
@@ -63,6 +70,10 @@ Click "Yes" to this pop-up.
 <p>
 Login DC-1 with your domain admin account.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -74,6 +85,10 @@ Login DC-1 with your domain admin account.
 <p>
 Click "Yes" to this pop-up.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -96,6 +111,10 @@ The ping will fail because Client-1 can't find host mainframe's IP address:
   <br />
 3. in it's DNS server (being DC-1).
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -121,6 +140,10 @@ Under DNS: expand DC-1, and expand Forward Lookup Zones.
   <br />
 Select mydomain.com
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -140,6 +163,10 @@ Assign (any) IP address: DC-1's private IP address.
   <br />
 Click: Add Host, OK, Done.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -153,6 +180,10 @@ In Client-1's command prompt: ping mainframe again.
   <br />
 Now you should see 4 replies from mainframe.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -166,6 +197,10 @@ Observe Client-1's DNS cache:
   <br />
 in the command prompt type: ipconfig /displaydns , click: ENTER.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -184,6 +219,10 @@ Change the IP address to: 8.8.8.8
   <br />
 Click: Apply, OK.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -200,6 +239,10 @@ You will see 4 replies from mainframe's previous IP address
   <br />
 because the old IP address still exists on Client-1's local DNS cache.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -217,6 +260,10 @@ Right click cmd and then select Run as administrator.
   <br />
 Confirm: Yes .
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -237,6 +284,10 @@ In Client-1's command prompt, type: ipconfig /flushdns.
   <br />
 Hit: ENTER
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -250,6 +301,10 @@ In Client-1's command prompt, ping mainframe again.
   <br />
 Now you will get 4 replies from mainframe's new IP address. 
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -263,6 +318,10 @@ In the command prompt, input: ipconfig /displaydns.
   <br />
 You will see Client-1 has the latest A-record for mainframe: 8.8.8.8 .
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -278,6 +337,10 @@ In Client 1, open command prompt and ping: search .
 The command prompt will read: ping request could not find host search.
 
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -290,6 +353,10 @@ In DC-1, open the Server Manager.
   <br />
 Select Tools on the right, and open DNS.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -300,6 +367,10 @@ Select Tools on the right, and open DNS.
 <p>
 Select: DC-1, Forward Lookup Zones, mydomain.com .
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -316,6 +387,10 @@ For the fully qualified domain name for target host, input: www.google.com
   <br />
 Click OK .
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -328,6 +403,10 @@ You must run command prompt as administrator and flush the dns.
   <br />
 Now in Client 1 if you ping the CNAME search, you will see 4 replies from Google.com
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -343,6 +422,10 @@ and you will see the CNAME search resolve to Google.com,
   <br />
 which resolves to Google's public IP address.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -354,6 +437,10 @@ which resolves to Google's public IP address.
 <p>
 On Client-1, you could open Microsoft Edge and browse to Disney.com.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -366,6 +453,10 @@ Then open command prompt and input: ipconfig /all.
   <br />
 You will see client-1's DNS server is DC-1.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -378,6 +469,10 @@ In DC-1, you can open the DNS manager and observe there aren't many records.
   <br />
 There certainly aren't public domain sites listed there.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -390,6 +485,10 @@ The reason DC-1 was able to provide Disney's IP mapping to Client-1 is because D
   <br />
 which are found under DC-1 Properties in DNS manager.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
