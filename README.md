@@ -1,6 +1,6 @@
 # DNS
 <p align="center">
-<img src="" alt="osTicket logo"/>
+<img src="https://github.com/user-attachments/assets/92d8c727-882e-44a5-9293-0eb0bfe6cea6" height="70" width="110"  alt="osTicket logo"/>
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
@@ -341,11 +341,47 @@ which resolves to Google's public IP address.
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/86769242-e8d4-4130-9c12-71b7c72a4ccb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+On Client-1, you could open Microsoft Edge and browse to Disney.com.
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/dfbfd774-84d3-447d-866e-ed550db0ea05" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+Then open command prompt and input: ipconfig /all.
+  <br />
+You will see client-1's DNS server is DC-1.
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/0d9a4566-ec27-41f3-abca-192e474edbf1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+In DC-1, you can open the DNS manager and observe there aren't many records.
+  <br />
+There certainly aren't public domain sites listed there.
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/7e4a2c43-e59c-4c82-8388-72185681f384" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+The reason DC-1 was able to provide Disney's IP mapping to Client-1 is because DC-1 has root hints,
+  <br />
+which are found under DC-1 Properties in DNS manager.
 </p>
 <br />
 
@@ -355,9 +391,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
+
 
 
 <p>
@@ -365,9 +402,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
+
 
 
 <p>
@@ -375,6 +413,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
