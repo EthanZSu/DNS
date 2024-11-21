@@ -484,6 +484,9 @@ ________________________________________________________________________________
 The reason DC-1 was able to provide Disney's IP mapping to Client-1 is because DC-1 has root hints,
   <br />
 which are found under DC-1 Properties in DNS manager.
+  <br />
+  <br />
+Root hints resolve queries for zones that don't exist on the local DNS server, such as Domains found on the Internet.
 </p>
 ________________________________________________________________________________________________________________________
 <br />
