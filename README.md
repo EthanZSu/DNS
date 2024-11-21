@@ -123,11 +123,74 @@ ________________________________________________________________________________
 
 </p>
 <p>
-You can manually check Client-1's local DNS cache. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+You can manually quickly check Client-1's local DNS cache. 
  <br />
+ <br />
+Open command prompt: input the above commands.
+ <br />
+On your keyboard: hold down CTRL, then F.
+ <br />
+Then input: mainframe, click "Find Next".
+ <br />
+The result will be mainframe isn't in the DNS cache.
+</p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
+<br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/c316cee1-c410-4047-ae84-a7ec56013425" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+You can also manually check Client-1's Host File 
+</p>
+<p>
+Search for Notepad in Client 1's taskbar searchbox.
+ <br />
+Right click: Notepad, then click: Run as admin.
+ <br />
+Allow Notepad to make changes by clicking: Yes.
 </p>
 <br />
 
+
+<p>
+<img src="https://github.com/user-attachments/assets/6ee6ddf2-a8d6-4f56-926f-bf9a2b1850b2" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+In top left select: File, then: open .
+ <br />
+Then in bottom right select: All Files .
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/5acd88cd-3e40-4d0d-971e-eb2dc5147356" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+At the top, open: System 32, 
+ <br />
+Scroll down and open: drivers.
+ <br />
+Then open: etc, hosts .
+ 
+</p>
+<br />
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+
+</p>
+<br />
 
 <p>
 <img src="https://github.com/user-attachments/assets/bc9735c9-ebf6-4716-9aa1-77c5c6188cf6" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -522,12 +585,47 @@ ________________________________________________________________________________
 <br />
 
 
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+
+</p>
+<br />
+
 
 <p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
 <p>
+
+</p>
+<br />
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+
+</p>
+<br />
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+
+</p>
+<br />
+
+
+
 
 </p>
 <br />
