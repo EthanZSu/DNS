@@ -118,6 +118,16 @@ ________________________________________________________________________________
 <br />
 
 
+<p>
+<img src="https://github.com/user-attachments/assets/1507ef5b-4558-4bd2-a2af-ff1a9e2d972b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+You can manually check Client-1's local DNS cache. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ <br />
+</p>
+<br />
+
 
 <p>
 <img src="https://github.com/user-attachments/assets/bc9735c9-ebf6-4716-9aa1-77c5c6188cf6" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -524,11 +534,3 @@ ________________________________________________________________________________
 
 
 
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-</p>
-<p>
-
-</p>
-<br />
