@@ -189,13 +189,15 @@ ________________________________________________________________________________
 
 
 <p>
-<img src="https://github.com/user-attachments/assets/b7ccad40-9633-4214-97a6-9920e8811ba1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/2f264d4f-ea5b-469a-903f-d90ba4dbdfcb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
 <p>
-Observe Client-1's DNS cache:
+Observe Client-1's DNS cache: 
   <br />
 in the command prompt type: ipconfig /displaydns , click: ENTER.
+  <br />
+You will see the A-record for mainframe.
 </p>
 ________________________________________________________________________________________________________________________
 <br />
