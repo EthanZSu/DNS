@@ -21,11 +21,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Virtual Machine "Client-1" (joined to Domain Controller)
+- Virtual Machine "DC-1" (Domain Controller with Active Directory)
 
 <h2>Installation Steps</h2>
 
