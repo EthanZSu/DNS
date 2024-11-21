@@ -29,9 +29,10 @@ This lab focuses on DNS in Active Directory by experimenting with A-records, DNS
  1. Creating and observing A-records.
  2. Understanding the importance of ipconfig /flushdns.
  3. Creating and observing CNAME records.
- 4. Observing Root Hints.
+ 4. Understanding Root Hints.
      
 <p>
+<h3>1. Creating and observing A-records.</h3>
 <img src="https://github.com/user-attachments/assets/d7455235-a04d-4757-9462-035b85b0b8b8" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
@@ -170,6 +171,7 @@ in the command prompt type: ipconfig /displaydns , click: ENTER.
 
 
 <p>
+<h3> 2. Understanding the importance of ipconfig /flushdns.</h3>
 <img src="https://github.com/user-attachments/assets/fccbb0d9-5c29-453d-9c35-e1f4316f637c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
@@ -266,6 +268,7 @@ You will see Client-1 has the latest A-record for mainframe: 8.8.8.8 .
 
 
 <p>
+<h3> 3. Creating and observing CNAME records.</h3>
 <img src="https://github.com/user-attachments/assets/ef9f9ee1-10f7-4bb9-913b-b8055e2e799b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
@@ -344,6 +347,7 @@ which resolves to Google's public IP address.
 
 
 <p>
+<h3>4. Understanding Root Hints.</h3>
 <img src="https://github.com/user-attachments/assets/86769242-e8d4-4130-9c12-71b7c72a4ccb" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
