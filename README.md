@@ -198,7 +198,7 @@ Observe Client-1's DNS cache:
 in the command prompt type: ipconfig /displaydns , click: ENTER.
   <br />
   <br />
-You will see the A-record for mainframe.
+You will see the A-record for mainframe in the client's local DNS cache.
 </p>
 ________________________________________________________________________________________________________________________
 <br />
