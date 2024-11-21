@@ -263,6 +263,84 @@ You will see Client-1 has the latest A-record for mainframe: 8.8.8.8 .
 
 
 <p>
+<img src="https://github.com/user-attachments/assets/ef9f9ee1-10f7-4bb9-913b-b8055e2e799b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+In Client 1, open command prompt and ping: search .
+  <br />
+The command prompt will read: ping request could not find host search.
+
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/c98a3373-ed2c-4d45-8a2c-819bff66d75e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+In DC-1, open the Server Manager.
+  <br />
+Select Tools on the right, and open DNS.
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/e27ceac6-acf6-487b-8a6e-f156950404fb" height="60%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+Select: DC-1, Forward Lookup Zones, mydomain.com .
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/1d14d195-bbcc-4105-8ceb-dcf7b20c0ab4" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+Right click beneath the right column & click New Alias (CNAME).
+  <br />
+For the Alias name, input: search.
+  <br />
+For the fully qualified domain name for target host, input: www.google.com
+  <br />
+Click OK .
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/20de4dda-973d-4292-b6bf-58882520da9b" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+You must run command prompt as administrator and flush the dns.
+  <br />
+Now in Client 1 if you ping the CNAME search, you will see 4 replies from Google.com
+</p>
+<br />
+
+
+<p>
+<img src="https://github.com/user-attachments/assets/2068e334-188d-4ae1-a69f-dafc8f4dc639" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+Use the command: ipconfig /displaydns,
+  <br />
+  <br />
+and you will see the CNAME search resolve to Google.com, 
+  <br />
+which resolves to Google's public IP address.
+</p>
+<br />
+
+
+<p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 </p>
@@ -271,6 +349,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
 
 
 <p>
