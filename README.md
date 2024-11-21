@@ -4,7 +4,7 @@
 </p>
 
 
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This lab focuses on DNS in Active Directory by experimenting with A-records, DNS cache, CNAME records, and root hints.  <br />
 
 
 
@@ -24,8 +24,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Virtual Machine "Client-1" (joined to Domain Controller)
 - Virtual Machine "DC-1" (Domain Controller with Active Directory)
 
-<h2>Installation Steps</h2>
+<h2>Lab Experiment Phases</h2>
 
+ 1. Creating and observing A-records.
+ 2. Understanding the importance of ipconfig /flushdns.
+ 3. Creating and observing CNAME records.
+ 4. Observing Root Hints.
+     
 <p>
 <img src="https://github.com/user-attachments/assets/d7455235-a04d-4757-9462-035b85b0b8b8" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -99,6 +104,9 @@ The ping will fail because Client-1 can't find host mainframe's IP address:
 
 </p>
 <p>
+So an A-record for mainframe must be made in the DNS server (being DC-1).
+  <br />
+  <br />
 (In DC-1: Except for the Server Manager, close any remaining windows from the previous active directory project.)
   <br />
   <br />
