@@ -204,7 +204,7 @@ ________________________________________________________________________________
 
 </p>
 <p>
-So an A-record for mainframe must be made in the DNS server (being DC-1) so Client-1 can ping it.
+Anyways, an A-record for mainframe must be made in the DNS server (being DC-1) so Client-1 can ping it.
   <br />
   <br />
 (In DC-1: Except for the Server Manager, close any remaining windows from the previous active directory project.)
