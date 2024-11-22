@@ -366,8 +366,9 @@ For Client-1 to receive replies from mainframe's new IP address:
 so Client-1 will be forced to query the DNS server for the new IP address).
   <br />
   <br />
-The importance of occasionally flushing a computer's local DNS cache is 
-  <br /> if local network resources changed IP addresses, the computer will need the new IP mapping to find those resources.
+The importance of occasionally flushing a computer's local DNS cache is if local network resources changed IP addresses,
+  <br />
+ the computer must be forced to query for the new IP mapping to find those resources.
   <br />
   <br />
 In Client-1's command prompt, type: ipconfig /flushdns.
