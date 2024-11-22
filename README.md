@@ -17,7 +17,7 @@ This lab focuses on DNS in Active Directory by experimenting with A-records, DNS
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> (22H2)
 - Windows Server 2022 Datacenter
 
 <h2>List of Prerequisites</h2>
