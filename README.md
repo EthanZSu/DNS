@@ -178,7 +178,11 @@ At the top, open: System 32,
 Scroll down and open: drivers.
  <br />
 Then open: etc, hosts .
- 
+ <br />
+ <br />
+The result will again be mainframe isn't in the local host file either
+ <br />
+(as IP mappings must first be manually inputted there).
 </p>
 <br />
 
