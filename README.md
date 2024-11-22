@@ -215,7 +215,7 @@ Anyways, an A-record for mainframe must be made in the DNS server (being DC-1) s
   <br />
 Open Server Manager via the taskbar search box.
   <br />
-On the top right select Tools.
+On the top right select: Tools, then: DNS
   <br />
 Then in DNS manager, select DNS on the left.
   <br />
