@@ -153,6 +153,10 @@ Right click: Notepad, then click: Run as admin.
  <br />
 Allow Notepad to make changes by clicking: Yes.
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -165,6 +169,10 @@ In top left select: File, then: open .
  <br />
 Then in bottom right select: All Files .
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
 
@@ -184,17 +192,12 @@ The result will again be mainframe isn't in the local host file either
  <br />
 (as IP mappings must first be manually inputted there).
 </p>
+________________________________________________________________________________________________________________________
+<br />
+<br />
+<br />
 <br />
 
-
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-</p>
-<p>
-
-</p>
-<br />
 
 <p>
 <img src="https://github.com/user-attachments/assets/bc9735c9-ebf6-4716-9aa1-77c5c6188cf6" height="80%" width="80%" alt="Disk Sanitization Steps"/>
