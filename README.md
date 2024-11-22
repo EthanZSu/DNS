@@ -1,4 +1,4 @@
-# DNS
+# DNS Within Active Directory: A-Records & CNAME Records
 <p align="center">
 <img src="https://github.com/user-attachments/assets/92d8c727-882e-44a5-9293-0eb0bfe6cea6" height="70" width="110"  alt="osTicket logo"/>
 </p>
