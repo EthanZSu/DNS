@@ -13,6 +13,7 @@ This lab focuses on DNS in Active Directory by experimenting with A-records, DNS
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory
+- Command Prompt
 
 <h2>Operating Systems Used </h2>
 
