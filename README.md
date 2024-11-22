@@ -32,7 +32,8 @@ This lab focuses on DNS in Active Directory by experimenting with A-records, DNS
  2. Understanding the importance of ipconfig /flushdns.
  3. Creating and observing CNAME records.
  4. Understanding Root Hints.
-     
+
+<h2>Actions and Observations</h2>
 <p>
 <h3>1. Creating and observing A-records.</h3>
 <img src="https://github.com/user-attachments/assets/d7455235-a04d-4757-9462-035b85b0b8b8" height="80%" width="80%" alt="Disk Sanitization Steps"/>
