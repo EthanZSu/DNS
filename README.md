@@ -22,8 +22,9 @@ This lab focuses on DNS in Active Directory by experimenting with A-records, DNS
 
 <h2>List of Prerequisites</h2>
 
-- Virtual Machine "Client-1" (joined to Domain Controller)
-- Virtual Machine "DC-1" (Domain Controller with Active Directory)
+ 1. Virtual Machine "DC-1" (Domain Controller with Active Directory)
+ 2. Virtual Machine "Client-1" (joined to Domain Controller)
+
 
 <h2>Lab Experiment Phases</h2>
 
