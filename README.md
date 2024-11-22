@@ -490,9 +490,9 @@ ________________________________________________________________________________
 
 </p>
 <p>
-You must run command prompt as administrator and flush the dns.
+You must run command prompt as administrator and flush Client 1's local dns cache.
   <br />
-Now in Client 1 if you ping the CNAME search, you will see 4 replies from Google.com
+Now in Client 1 if you ping the CNAME: search, you will see 4 replies from Google.com
 </p>
 ________________________________________________________________________________________________________________________
 <br />
